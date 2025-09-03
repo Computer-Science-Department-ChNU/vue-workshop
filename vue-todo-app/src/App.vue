@@ -1,9 +1,3 @@
-<script setup>
-import AppHeader from "@/components/AppHeader.vue";
-import AppFooter from "@/components/AppFooter.vue";
-import Todos from "@/components/Todos.vue";
-</script>
-
 <template>
   <div class="page">
     <AppHeader/>
@@ -13,3 +7,9 @@ import Todos from "@/components/Todos.vue";
     <AppFooter/>
   </div>
 </template>
+
+<script setup>
+import AppHeader from "@/components/AppHeader.vue";
+import AppFooter from "@/components/AppFooter.vue";
+import Todos from "@/components/Todos.vue";
+</script>
